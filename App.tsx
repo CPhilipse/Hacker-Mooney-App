@@ -1,118 +1,89 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import * as React from 'react';
 
-import React from 'react';
-import type {PropsWithChildren} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import {Button, Text, View} from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import CandyShop from './src/pages/Sqli/assignments/CandyShop';
+import Home from './src/pages/Home';
+import Lfi from './src/pages/Lfi';
+import Mooney from './src/pages/Mooney';
+import {NavigationContainer} from '@react-navigation/native';
+import Pages from './src/enum/Pages';
+import Sqli from './src/pages/Sqli';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import Levi from './src/pages/Lfi/assignments/Levi';
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
+// function HomeScreen({navigation}: any) {
+//   return (
+//     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+//       <Text>Home Screen</Text>
+//       <Button
+//         title="Go to Details"
+//         onPress={() => navigation.navigate('Details')}
+//       />
+//     </View>
+//   );
+// }
 
-function Section({children, title}: SectionProps): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+// function DetailsScreen({navigation}: any) {
+//   return (
+//     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+//       <Text>Details Screen</Text>
+//       <Button
+//         title="Go to Details... again"
+//         onPress={() => navigation.push('Details')}
+//       />
+//       <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
+//       <Button title="Go back" onPress={() => navigation.goBack()} />
+//     </View>
+//   );
+// }
+
+const Stack = createNativeStackNavigator();
+
+function App() {
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name={Pages.HOME}
+          component={Home}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name={Pages.MOONEY}
+          component={Mooney}
+          options={{title: 'Hacker Mooney'}}
+        />
+        <Stack.Screen
+          name={Pages.SQLI}
+          component={Sqli}
+          options={{title: 'SQL Injection'}}
+        />
+        <Stack.Screen
+          name={Pages.CANDY_SHOP}
+          component={CandyShop}
+          options={{
+            headerShown: false,
+            title: 'Candy Shop SQL Injection Assignment',
+          }}
+        />
+        <Stack.Screen
+          name={Pages.LFI}
+          component={Lfi}
+          options={{title: 'Local File Inclusion'}}
+        />
+        <Stack.Screen
+          name={Pages.LEVI}
+          component={Levi}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen name={Pages.XSS} component={Sqli} />
+        <Stack.Screen name={Pages.XXE} component={Sqli} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
-
-function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
-  );
-}
-
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
 
 export default App;

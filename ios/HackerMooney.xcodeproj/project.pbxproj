@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* HackerMooneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HackerMooneyTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-HackerMooney.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-HackerMooney.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-HackerMooney-HackerMooneyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-HackerMooney-HackerMooneyTests.a */; };
+		16D784BBE9864BA49F35933D /* Menlo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20EBA893DD334A3ABA200384 /* Menlo-Regular.ttf */; };
+		2EDC313EB8B9498BBB74CBAA /* Sansita-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DB69EC177D64498AFF650A0 /* Sansita-Regular.ttf */; };
+		34274036EA784172BDC3AD52 /* Sansita-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD5AFDA5F6174B8D816B26F8 /* Sansita-ExtraBoldItalic.ttf */; };
+		5D68F2766D236E14D53DC616 /* libPods-HackerMooney.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFBCA41D18578413E214364 /* libPods-HackerMooney.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		982122F04BDA27C3D0A27887 /* libPods-HackerMooney-HackerMooneyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DF2107143ABEFD8FDDE190 /* libPods-HackerMooney-HackerMooneyTests.a */; };
+		C22E6FE3B80A4ACB86E13A5B /* Sansita-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F7AE314C613437B83112E82 /* Sansita-Italic.ttf */; };
+		D01F464969A24083BA57BF48 /* Sansita-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441C963FFBC14D51804EC82D /* Sansita-Black.ttf */; };
+		EA1FF3360B2D4796A0324598 /* Sansita-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2ED50A7BC604F8FBD378EA5 /* Sansita-BoldItalic.ttf */; };
+		EE95154E789842909BA1148C /* Sansita-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF612B40E05446859CA89AB4 /* Sansita-ExtraBold.ttf */; };
+		FB7439654D814D70917D1397 /* Sansita-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCE470A17DAB4B72BB5575F0 /* Sansita-BlackItalic.ttf */; };
 		FBC76A9FA2F0E8B6598E7449 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0A2B2B5B64C4C5654801AD7A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +39,7 @@
 		00E356EE1AD99517003FC87E /* HackerMooneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerMooneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* HackerMooneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerMooneyTests.m; sourceTree = "<group>"; };
-		0A2B2B5B64C4C5654801AD7A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = HackerMooney/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0A2B2B5B64C4C5654801AD7A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = HackerMooney/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* HackerMooney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerMooney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HackerMooney/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = HackerMooney/AppDelegate.mm; sourceTree = "<group>"; };
@@ -39,14 +47,41 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HackerMooney/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HackerMooney/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = HackerMooney/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-HackerMooney-HackerMooneyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerMooney-HackerMooneyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-HackerMooney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerMooney.debug.xcconfig"; path = "Target Support Files/Pods-HackerMooney/Pods-HackerMooney.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-HackerMooney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerMooney.release.xcconfig"; path = "Target Support Files/Pods-HackerMooney/Pods-HackerMooney.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-HackerMooney-HackerMooneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerMooney-HackerMooneyTests.debug.xcconfig"; path = "Target Support Files/Pods-HackerMooney-HackerMooneyTests/Pods-HackerMooney-HackerMooneyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-HackerMooney.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerMooney.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EBA893DD334A3ABA200384 /* Menlo-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Menlo-Regular.ttf"; path = "../assets/fonts/Menlo-Regular.ttf"; sourceTree = "<group>"; };
+		28CE1BA52C70F1650053221E /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		28CE1BA62C70F1650053221E /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		28CE1BA72C70F1650053221E /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		28CE1BA82C70F1650053221E /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		28CE1BA92C70F1650053221E /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		28CE1BAA2C70F1650053221E /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		28CE1BAB2C70F1650053221E /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		28CE1BAC2C70F1650053221E /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		28CE1BAD2C70F1650053221E /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		28CE1BAE2C70F1650053221E /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		28CE1BAF2C70F1650053221E /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		28CE1BB02C70F1650053221E /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		28CE1BB12C70F1650053221E /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		28CE1BB22C70F1650053221E /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		28CE1BB32C70F1650053221E /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		28CE1BB42C70F1650053221E /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		28CE1BB52C70F1650053221E /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		28CE1BB62C70F1650053221E /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		28CE1BB72C70F1650053221E /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		29ECF148066E7BDC65188D8B /* Pods-HackerMooney-HackerMooneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerMooney-HackerMooneyTests.debug.xcconfig"; path = "Target Support Files/Pods-HackerMooney-HackerMooneyTests/Pods-HackerMooney-HackerMooneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33FDB3660E144F7F93C2859E /* Pods-HackerMooney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerMooney.release.xcconfig"; path = "Target Support Files/Pods-HackerMooney/Pods-HackerMooney.release.xcconfig"; sourceTree = "<group>"; };
+		36DF2107143ABEFD8FDDE190 /* libPods-HackerMooney-HackerMooneyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerMooney-HackerMooneyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		441C963FFBC14D51804EC82D /* Sansita-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sansita-Black.ttf"; path = "../assets/fonts/Sansita-Black.ttf"; sourceTree = "<group>"; };
+		5F7AE314C613437B83112E82 /* Sansita-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sansita-Italic.ttf"; path = "../assets/fonts/Sansita-Italic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HackerMooney/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-HackerMooney-HackerMooneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerMooney-HackerMooneyTests.release.xcconfig"; path = "Target Support Files/Pods-HackerMooney-HackerMooneyTests/Pods-HackerMooney-HackerMooneyTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A735B2B8DB7A3931ADF60EC /* Pods-HackerMooney-HackerMooneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerMooney-HackerMooneyTests.release.xcconfig"; path = "Target Support Files/Pods-HackerMooney-HackerMooneyTests/Pods-HackerMooney-HackerMooneyTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DB69EC177D64498AFF650A0 /* Sansita-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sansita-Regular.ttf"; path = "../assets/fonts/Sansita-Regular.ttf"; sourceTree = "<group>"; };
+		B2ED50A7BC604F8FBD378EA5 /* Sansita-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sansita-BoldItalic.ttf"; path = "../assets/fonts/Sansita-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B503A2425049DF35A96CBE1E /* Pods-HackerMooney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerMooney.debug.xcconfig"; path = "Target Support Files/Pods-HackerMooney/Pods-HackerMooney.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE470A17DAB4B72BB5575F0 /* Sansita-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sansita-BlackItalic.ttf"; path = "../assets/fonts/Sansita-BlackItalic.ttf"; sourceTree = "<group>"; };
+		BF612B40E05446859CA89AB4 /* Sansita-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sansita-ExtraBold.ttf"; path = "../assets/fonts/Sansita-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CD5AFDA5F6174B8D816B26F8 /* Sansita-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sansita-ExtraBoldItalic.ttf"; path = "../assets/fonts/Sansita-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FEFBCA41D18578413E214364 /* libPods-HackerMooney.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerMooney.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-HackerMooney-HackerMooneyTests.a in Frameworks */,
+				982122F04BDA27C3D0A27887 /* libPods-HackerMooney-HackerMooneyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-HackerMooney.a in Frameworks */,
+				5D68F2766D236E14D53DC616 /* libPods-HackerMooney.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +136,39 @@
 			name = HackerMooney;
 			sourceTree = "<group>";
 		};
+		28CE1BB82C70F1650053221E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				28CE1BA52C70F1650053221E /* AntDesign.ttf */,
+				28CE1BA62C70F1650053221E /* Entypo.ttf */,
+				28CE1BA72C70F1650053221E /* EvilIcons.ttf */,
+				28CE1BA82C70F1650053221E /* Feather.ttf */,
+				28CE1BA92C70F1650053221E /* FontAwesome.ttf */,
+				28CE1BAA2C70F1650053221E /* FontAwesome5_Brands.ttf */,
+				28CE1BAB2C70F1650053221E /* FontAwesome5_Regular.ttf */,
+				28CE1BAC2C70F1650053221E /* FontAwesome5_Solid.ttf */,
+				28CE1BAD2C70F1650053221E /* FontAwesome6_Brands.ttf */,
+				28CE1BAE2C70F1650053221E /* FontAwesome6_Regular.ttf */,
+				28CE1BAF2C70F1650053221E /* FontAwesome6_Solid.ttf */,
+				28CE1BB02C70F1650053221E /* Fontisto.ttf */,
+				28CE1BB12C70F1650053221E /* Foundation.ttf */,
+				28CE1BB22C70F1650053221E /* Ionicons.ttf */,
+				28CE1BB32C70F1650053221E /* MaterialCommunityIcons.ttf */,
+				28CE1BB42C70F1650053221E /* MaterialIcons.ttf */,
+				28CE1BB52C70F1650053221E /* Octicons.ttf */,
+				28CE1BB62C70F1650053221E /* SimpleLineIcons.ttf */,
+				28CE1BB72C70F1650053221E /* Zocial.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-HackerMooney.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-HackerMooney-HackerMooneyTests.a */,
+				FEFBCA41D18578413E214364 /* libPods-HackerMooney.a */,
+				36DF2107143ABEFD8FDDE190 /* libPods-HackerMooney-HackerMooneyTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,12 +183,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				28CE1BB82C70F1650053221E /* Fonts */,
 				13B07FAE1A68108700A75B9A /* HackerMooney */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* HackerMooneyTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E7C0E477A70D40D3B881AA56 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -145,12 +209,27 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-HackerMooney.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-HackerMooney.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-HackerMooney-HackerMooneyTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-HackerMooney-HackerMooneyTests.release.xcconfig */,
+				B503A2425049DF35A96CBE1E /* Pods-HackerMooney.debug.xcconfig */,
+				33FDB3660E144F7F93C2859E /* Pods-HackerMooney.release.xcconfig */,
+				29ECF148066E7BDC65188D8B /* Pods-HackerMooney-HackerMooneyTests.debug.xcconfig */,
+				8A735B2B8DB7A3931ADF60EC /* Pods-HackerMooney-HackerMooneyTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E7C0E477A70D40D3B881AA56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20EBA893DD334A3ABA200384 /* Menlo-Regular.ttf */,
+				441C963FFBC14D51804EC82D /* Sansita-Black.ttf */,
+				BCE470A17DAB4B72BB5575F0 /* Sansita-BlackItalic.ttf */,
+				B2ED50A7BC604F8FBD378EA5 /* Sansita-BoldItalic.ttf */,
+				BF612B40E05446859CA89AB4 /* Sansita-ExtraBold.ttf */,
+				CD5AFDA5F6174B8D816B26F8 /* Sansita-ExtraBoldItalic.ttf */,
+				5F7AE314C613437B83112E82 /* Sansita-Italic.ttf */,
+				8DB69EC177D64498AFF650A0 /* Sansita-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,12 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HackerMooneyTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				6FBAAA3F61B8E9F5A31A2076 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				D7641610D7DF27F341D7FB62 /* [CP] Embed Pods Frameworks */,
+				DFFAAF414E0F67D8E05EBE9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,13 +260,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HackerMooney" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				39E4443BB400AD14B0DE486C /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				9855BE5B822826D91050FB16 /* [CP] Embed Pods Frameworks */,
+				D48FB558598804AB33C6310F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +328,14 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				FBC76A9FA2F0E8B6598E7449 /* PrivacyInfo.xcprivacy in Resources */,
+				16D784BBE9864BA49F35933D /* Menlo-Regular.ttf in Resources */,
+				D01F464969A24083BA57BF48 /* Sansita-Black.ttf in Resources */,
+				FB7439654D814D70917D1397 /* Sansita-BlackItalic.ttf in Resources */,
+				EA1FF3360B2D4796A0324598 /* Sansita-BoldItalic.ttf in Resources */,
+				EE95154E789842909BA1148C /* Sansita-ExtraBold.ttf in Resources */,
+				34274036EA784172BDC3AD52 /* Sansita-ExtraBoldItalic.ttf in Resources */,
+				C22E6FE3B80A4ACB86E13A5B /* Sansita-Italic.ttf in Resources */,
+				2EDC313EB8B9498BBB74CBAA /* Sansita-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,46 +358,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HackerMooney/Pods-HackerMooney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HackerMooney/Pods-HackerMooney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackerMooney/Pods-HackerMooney-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HackerMooney-HackerMooneyTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		39E4443BB400AD14B0DE486C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -332,24 +380,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		6FBAAA3F61B8E9F5A31A2076 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HackerMooney-HackerMooneyTests/Pods-HackerMooney-HackerMooneyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HackerMooney-HackerMooneyTests/Pods-HackerMooney-HackerMooneyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerMooney-HackerMooneyTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackerMooney-HackerMooneyTests/Pods-HackerMooney-HackerMooneyTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		9855BE5B822826D91050FB16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerMooney/Pods-HackerMooney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerMooney/Pods-HackerMooney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackerMooney/Pods-HackerMooney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D48FB558598804AB33C6310F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,7 +436,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackerMooney/Pods-HackerMooney-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		D7641610D7DF27F341D7FB62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerMooney-HackerMooneyTests/Pods-HackerMooney-HackerMooneyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerMooney-HackerMooneyTests/Pods-HackerMooney-HackerMooneyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackerMooney-HackerMooneyTests/Pods-HackerMooney-HackerMooneyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFFAAF414E0F67D8E05EBE9B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -416,7 +503,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-HackerMooney-HackerMooneyTests.debug.xcconfig */;
+			baseConfigurationReference = 29ECF148066E7BDC65188D8B /* Pods-HackerMooney-HackerMooneyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -443,7 +530,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-HackerMooney-HackerMooneyTests.release.xcconfig */;
+			baseConfigurationReference = 8A735B2B8DB7A3931ADF60EC /* Pods-HackerMooney-HackerMooneyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -467,7 +554,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-HackerMooney.debug.xcconfig */;
+			baseConfigurationReference = B503A2425049DF35A96CBE1E /* Pods-HackerMooney.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -494,7 +581,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-HackerMooney.release.xcconfig */;
+			baseConfigurationReference = 33FDB3660E144F7F93C2859E /* Pods-HackerMooney.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

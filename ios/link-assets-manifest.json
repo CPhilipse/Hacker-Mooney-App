@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Menlo-Regular.ttf",
+      "sha1": "6a296aa95f0d10ce53425d3110a7c4d1fa13dfa2"
+    },
+    {
+      "path": "assets/fonts/Sansita-Black.ttf",
+      "sha1": "183fc9b248d7fe720f91b76b6018d68cc382be53"
+    },
+    {
+      "path": "assets/fonts/Sansita-BlackItalic.ttf",
+      "sha1": "78ce3a7480acac508349d1468b80820751d3a296"
+    },
+    {
+      "path": "assets/fonts/Sansita-BoldItalic.ttf",
+      "sha1": "3d0b4456741605ec44e06472570a35a7d70705c9"
+    },
+    {
+      "path": "assets/fonts/Sansita-ExtraBold.ttf",
+      "sha1": "a2c6ed0b847804610aca59fced94ce376d561377"
+    },
+    {
+      "path": "assets/fonts/Sansita-ExtraBoldItalic.ttf",
+      "sha1": "482580ff30fa031a16d9dab188cdb4f61182b2d6"
+    },
+    {
+      "path": "assets/fonts/Sansita-Italic.ttf",
+      "sha1": "7a2a77fe454cb5e432d3834bf195f6f775728ded"
+    },
+    {
+      "path": "assets/fonts/Sansita-Regular.ttf",
+      "sha1": "3c93adde784b9d22edad31ed159dc43afc53c27d"
+    }
+  ]
+}
